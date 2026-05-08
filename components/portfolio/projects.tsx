@@ -1,6 +1,9 @@
 import { ExternalLink, Github, Folder } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import sgc from "../../public/sgc.png";
+import novodente from "../../public/novodente.png";
+import tPlusSaude from "../../public/t-plus-saude.webp";
 
 const featuredProjects = [
   {
@@ -18,7 +21,7 @@ const featuredProjects = [
       "Lambda",
       "Serverless Framework",
     ],
-    image: "/sgc.png",
+    image: sgc,
     live: "",
   },
   {
@@ -26,7 +29,7 @@ const featuredProjects = [
     description:
       "Plataforma de planos odontológicos com suporte a whitelabel — permitindo que múltiplas marcas utilizem a mesma infraestrutura com identidades visuais distintas. Frontend em Next.js com foco em performance e SEO, API robusta em Spring Boot com Kotlin e persistência em PostgreSQL com JPA.",
     techs: ["Next.js", "Spring Boot", "Kotlin", "PostgreSQL", "JPA"],
-    image: "/novodente.png",
+    image: novodente,
     live: "https://novodente.com.br",
   },
   {
@@ -34,7 +37,7 @@ const featuredProjects = [
     description:
       "Plataforma de gestão da Atenção Primária à Saúde (APS). Atuei na construção e evolução do backend, criando endpoints, regras de negócio complexas, migrations e integrações com APIs externas do setor de saúde. Projeto com alto nível de responsabilidade dado o contexto crítico de saúde pública.",
     techs: ["Node.js", "Express", "JavaScript", "PostgreSQL", "Sequelize"],
-    image: "/t-plus-saude.webp",
+    image: tPlusSaude,
     live: "https://hsm.tsaude.app/login",
   },
 ];

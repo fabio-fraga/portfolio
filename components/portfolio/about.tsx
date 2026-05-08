@@ -1,4 +1,5 @@
 import Image from "next/image"
+import me from "../../public/me.jpeg"
 
 const skills = [
   "React.js",
@@ -58,7 +59,7 @@ export function About() {
             <div className="relative w-full aspect-square rounded overflow-hidden">
               <div className="w-full h-full bg-secondary flex items-center justify-center">
                 <Image
-                  src="/me.jpeg"
+                  src={me}
                   alt="Profile Picture"
                   layout="fill"
                   objectFit="cover"
