@@ -58,6 +58,8 @@ export function Header() {
           <li>
             <Link
               href="/curriculo.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm text-primary border border-primary px-4 py-2 rounded hover:bg-primary/10 transition-colors duration-300"
             >
               Currículo
