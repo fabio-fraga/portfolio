@@ -47,7 +47,7 @@ const skills = [
 
 export function SoftSkills() {
   return (
-    <section id="soft-skills" className="px-6 py-24">
+    <section id="soft-skills" className="px-4 py-24">
       <div className="container flex flex-col items-center">
         <h2 className="text-3xl font-bold text-foreground mb-4">
           <span className="text-primary font-mono">03.</span> Soft Skills

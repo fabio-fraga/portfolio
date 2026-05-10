@@ -3,7 +3,7 @@ import { Mail } from "lucide-react"
 
 export function Contact() {
   return (
-    <section id="contato" className="px-6 py-24">
+    <section id="contato" className="px-4 py-24">
       <div className="container mx-auto text-center">
         <p className="text-primary font-mono text-sm mb-4">
           <span className="mr-2">06.</span>

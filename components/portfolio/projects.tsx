@@ -65,7 +65,7 @@ const otherProjects = [
 
 export function Projects() {
   return (
-    <section id="projetos" className="px-6 py-24">
+    <section id="projetos" className="px-4 py-24">
       <div className="container flex flex-col items-center">
         <div className="flex items-center gap-4 mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground">

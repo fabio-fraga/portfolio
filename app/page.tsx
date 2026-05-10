@@ -13,7 +13,7 @@ export default function Home() {
     <div className="min-h-screen">
       <Header />
       <main className="flex flex-col items-center justify-center">
-        <div className="container max-w-6xl flex flex-col items-center px-6 md:px-12 lg:px-24">
+        <div className="container max-w-6xl px-6 md:px-12 lg:px-24">
           <Hero />
           <About />
           <Experiences />
