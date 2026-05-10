@@ -115,10 +115,12 @@ export function Header() {
               onClick={() => setIsMobileMenuOpen(false)}
               className="text-lg text-foreground hover:text-primary transition-colors duration-300"
             >
-              <span className="text-primary font-mono mr-2 block text-center text-sm mb-1">
-                0{index + 1}.
-              </span>
-              {link.name}
+              <p className="text-center">
+                <span className="text-primary font-mono text-center text-sm mb-1 mr-2">
+                  0{index + 1}.
+                </span>
+                {link.name}
+              </p>
             </Link>
           ))}
           <Link
