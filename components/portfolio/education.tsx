@@ -45,8 +45,8 @@ const educationData = [
 
 export function Education() {
   return (
-    <section id="formacao" className="py-20 md:py-32">
-      <div className="container px-6 md:px-12 lg:px-24">
+    <section id="formacao" className="px-6 py-20 md:py-32">
+      <div className="container">
         <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-12">
           <span className="text-primary font-mono text-xl mr-2">04.</span>
           Formação Acadêmica

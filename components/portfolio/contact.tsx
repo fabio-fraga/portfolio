@@ -3,8 +3,8 @@ import { Mail } from "lucide-react"
 
 export function Contact() {
   return (
-    <section id="contato" className="py-24 px-6 md:px-12 lg:px-24">
-      <div className="max-w-2xl mx-auto text-center">
+    <section id="contato" className="px-6 py-24">
+      <div className="container mx-auto text-center">
         <p className="text-primary font-mono text-sm mb-4">
           <span className="mr-2">06.</span>
           E agora?

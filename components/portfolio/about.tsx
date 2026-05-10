@@ -1,5 +1,5 @@
 import Image from "next/image"
-import me from "../../public/me.jpeg"
+import profilePicture from "../../public/profile-picture-2.jpeg"
 
 const skills = [
   "React.js",
@@ -14,9 +14,9 @@ const skills = [
 
 export function About() {
   return (
-    <section id="sobre" className="py-24 px-6 md:px-12 lg:px-24">
-      <div className="max-w-4xl">
-        <div className="flex items-center gap-4 mb-12">
+    <section id="sobre" className="px-6 py-24">
+      <div>
+        <div className="container flex items-center gap-4 mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground">
             <span className="text-primary font-mono text-xl mr-2">01.</span>
             Sobre Mim
@@ -27,7 +27,7 @@ export function About() {
         <div className="grid md:grid-cols-3 gap-12">
           <div className="md:col-span-2 space-y-4">
             <p className="text-muted-foreground leading-relaxed">
-              Olá! Sou um desenvolvedor extremamente apaixonado pelo o que faz, com experiência em 
+              Sou um desenvolvedor extremamente apaixonado pelo o que faz, com experiência em 
               projetos reais de backend e frontend, atuando de ponta a ponta no desenvolvimento de produtos
               digitais — do refinamento técnico ao deploy. Contribuo em decisões
               arquiteturais e de tecnologias a serem utilizadas, revisões de PR e investigação de problemas em produção até a causa raiz.
@@ -55,11 +55,11 @@ export function About() {
             </ul>
           </div>
           
-          <div className="relative group">
+          <div className="relative group max-md:hidden">
             <div className="relative w-full aspect-square rounded overflow-hidden">
               <div className="w-full h-full bg-secondary flex items-center justify-center">
                 <Image
-                  src={me}
+                  src={profilePicture}
                   alt="Profile Picture"
                   layout="fill"
                   objectFit="cover"

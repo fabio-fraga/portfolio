@@ -47,20 +47,24 @@ const skills = [
 
 export function SoftSkills() {
   return (
-    <section id="soft-skills" className="py-24 px-6 md:px-12 lg:px-24">
-      <div className="max-w-6xl mx-auto">
+    <section id="soft-skills" className="px-6 py-24">
+      <div className="container flex flex-col items-center">
         <h2 className="text-3xl font-bold text-foreground mb-4">
           <span className="text-primary font-mono">03.</span> Soft Skills
         </h2>
-        <p className="text-muted-foreground max-w-2xl mb-12">
-          Habilidades técnicas constroem produtos. Habilidades interpessoais constroem times. Estas são as que mais me identifico:
+        <p className="text-muted-foreground mb-12">
+          Habilidades técnicas constroem produtos. Habilidades interpessoais constroem times. 
+          Durante minha trajetória pessoal e profissional, desenvolvi competências que considero 
+          essenciais para um desenvolvedor — e que me permitem colaborar efetivamente, resolver 
+          problemas complexos e me adaptar a ambientes em constante mudança. Aqui estão algumas 
+          das minhas principais soft skills:
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {skills.map((skill, index) => (
             <div
               key={skill.title}
-              className="group p-6 rounded-lg bg-card border border-border hover:border-primary/50 transition-all duration-300"
+              className="group p-4 rounded-lg bg-card border border-border hover:border-primary/50 transition-all duration-300"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">

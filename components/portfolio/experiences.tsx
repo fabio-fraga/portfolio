@@ -48,21 +48,21 @@ const experiences = [
   },
 ]
 
-export function Experience() {
+export function Experiences() {
   const [activeTab, setActiveTab] = useState(0)
 
   return (
-    <section id="experiencia" className="py-24 px-6 md:px-12 lg:px-24">
-      <div className="max-w-4xl">
+    <section id="experiencias" className="px-6 py-24">
+      <div className="container flex flex-col items-center">
         <div className="flex items-center gap-4 mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground">
             <span className="text-primary font-mono text-xl mr-2">02.</span>
-            Experiência
+            Experiências
           </h2>
           <div className="h-px bg-border flex-1 max-w-xs" />
         </div>
 
-        <div className="flex flex-col md:flex-row gap-4 md:gap-8">
+        <div className="container flex flex-col md:flex-row gap-4 md:gap-8">
           {/* Tabs */}
           <div className="flex md:flex-col overflow-x-auto md:overflow-x-visible border-b md:border-b-0 md:border-l border-border">
             {experiences.map((exp, index) => (
