@@ -32,7 +32,7 @@ export function Hero() {
           <span className="text-balance">Desenvolvedor Full Stack</span>
         </h2>
 
-        <p className="text-muted-foreground text-lg md:text-xl mb-12 leading-relaxed">
+        <p className="text-center text-muted-foreground text-lg md:text-xl mb-12 leading-relaxed">
           Sou especializado em criar aplicações web modernas, performáticas e
           acessíveis. Atualmente focado em construir produtos digitais que fazem
           a diferença.

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { Button } from "../ui/button";
 
 const navLinks = [
   { name: "Sobre", href: "#sobre" },
@@ -51,12 +52,17 @@ export function Header() {
         )}
       >
         <nav className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between">
-          <Link
-            href="/"
-            className="text-primary font-bold text-xl hover:opacity-80 transition-opacity"
+          <Button
+            variant="outline"
+            onClick={() => {
+              if (isMobileMenuOpen) return
+
+              window.scrollTo({ top: 0, behavior: "smooth" })
+            }}
+            className="cursor-pointer text-primary font-bold text-xl"
           >
             {"</>"}
-          </Link>
+          </Button>
 
           {/* Desktop Navigation */}
           <ul className="hidden lg:flex items-center gap-8">
