@@ -26,7 +26,7 @@ export function Contact() {
           className="inline-flex items-center gap-2 text-primary border border-primary px-8 py-4 rounded hover:bg-primary/10 transition-colors duration-300 font-mono"
         >
           <Mail className="w-5 h-5" />
-          Enviar Email
+          Enviar e-mail
         </Link>
       </div>
     </section>
