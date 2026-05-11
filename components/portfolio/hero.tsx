@@ -29,7 +29,7 @@ export function Hero() {
         </h1>
 
         <h2 className="text-center text-2xl md:text-3xl lg:text-4xl font-bold text-muted-foreground mb-8">
-          <span className="text-balance">Desenvolvedor Full Stack</span>
+          <span className="text-balance">Full Stack Developer</span>
         </h2>
 
         <p className="text-center text-muted-foreground text-lg md:text-xl mb-12 leading-relaxed">
